@@ -1,0 +1,78 @@
+/* বেসিক ডিজাইন */
+body {
+  background-color: #f1f3f4; /* হালকা বেইজ ব্যাকগ্রাউন্ড */
+  font-family: 'Noto Sans Arabic', sans-serif;
+  color: #333;
+  text-align: center;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #2f2f2f;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+header {
+  background-color: #4d87e2; /* ব্লু কালার */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+#prayTimes, #dateSection {
+  margin-top: 20px;
+}
+
+#prayTimes div {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e2f0f9;
+}
+
+#prayTimes h3 {
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: #f8a200; /* সোনালী হলুদ */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d88e00;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #4d87e2;
+  color: #fff;
+  padding: 10px 0;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  #prayTimes div {
+    font-size: 1rem;
+  }
+}
